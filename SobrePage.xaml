@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.SobrePage"
+             Title="Sobre"
+             BackgroundColor="#F5F0FA">
+
+    <VerticalStackLayout Padding="30"
+                         Spacing="20"
+                         VerticalOptions="Center"
+                         HorizontalOptions="Center">
+
+        <Label Text="SOBRE O APLICATIVO"
+               FontSize="15"
+               FontAttributes="Bold"
+               TextColor="#8052A0"
+               HorizontalOptions="Center"/>
+
+        <Label Text="🏨"
+               FontSize="65"
+               HorizontalOptions="Center"/>
+
+        <Label Text="App Hotel"
+               FontSize="30"
+               FontAttributes="Bold"
+               TextColor="#51336D"
+               HorizontalOptions="Center"/>
+
+        <Label Text="Sistema de gerenciamento de hospedagem."
+               FontSize="16"
+               TextColor="#78668A"
+               HorizontalTextAlignment="Center"/>
+
+        <BoxView HeightRequest="2"
+                 Color="#D9C5E9"/>
+
+        <Label Text="Desenvolvedora"
+               FontAttributes="Bold"
+               TextColor="#8052A0"
+               HorizontalOptions="Center"/>
+
+        <Label Text="Tatiane Carvalho"
+               FontSize="18"
+               TextColor="#51336D"
+               HorizontalOptions="Center"/>
+
+        <Label Text="Ano de desenvolvimento: 2026"
+               FontSize="15"
+               TextColor="#78668A"
+               HorizontalOptions="Center"/>
+
+        <Label Text="Desenvolvido com .NET MAUI"
+               FontSize="13"
+               TextColor="#8052A0"
+               HorizontalOptions="Center"/>
+
+    </VerticalStackLayout>
+</ContentPage>
